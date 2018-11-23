@@ -1,0 +1,26 @@
+//
+//  Prefix.pch
+//  RishilFBDB
+//
+//  Created by Rishil-iMac on 22/11/18.
+//  Copyright © 2018 Rishil Patel. All rights reserved.
+//
+
+#ifndef Prefix_pch
+#define Prefix_pch
+#import "AppDelegate.h"
+
+#import "CellClass.h"
+@import Firebase;
+#define theAppDelegate (AppDelegate *)[[UIApplication sharedApplication] delegate]
+
+
+// Common Strings
+
+#define COLLECTION_NAME @"TestData" // FireBase Collection Name
+#define DATAFIELD_NAME @"Name" // FireBase Document Field Name
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Prefix_pch */
+

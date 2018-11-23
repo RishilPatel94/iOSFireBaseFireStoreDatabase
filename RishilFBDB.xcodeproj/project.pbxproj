@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		407A1916F0C8B7845085B2C7 /* libPods-RishilFBDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5130EE34AC173F3AB455DC /* libPods-RishilFBDB.a */; };
+		F153B2E221A7630200B6F0AE /* CellClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F153B2E121A7630200B6F0AE /* CellClass.m */; };
+		F15C0AC521A600D60019550A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F15C0AC421A600D60019550A /* GoogleService-Info.plist */; };
+		F16C4AAD21A5EA970014169A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F16C4AAC21A5EA970014169A /* AppDelegate.m */; };
+		F16C4AB021A5EA970014169A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F16C4AAF21A5EA970014169A /* ViewController.m */; };
+		F16C4AB321A5EA970014169A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16C4AB121A5EA970014169A /* Main.storyboard */; };
+		F16C4AB521A5EA980014169A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16C4AB421A5EA980014169A /* Assets.xcassets */; };
+		F16C4AB821A5EA980014169A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16C4AB621A5EA980014169A /* LaunchScreen.storyboard */; };
+		F16C4ABB21A5EA980014169A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F16C4ABA21A5EA980014169A /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E5130EE34AC173F3AB455DC /* libPods-RishilFBDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RishilFBDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72E573DF72772C95C5657C33 /* Pods-RishilFBDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RishilFBDB.release.xcconfig"; path = "Pods/Target Support Files/Pods-RishilFBDB/Pods-RishilFBDB.release.xcconfig"; sourceTree = "<group>"; };
+		B6599EE25F4CE5C99B5F8123 /* Pods-RishilFBDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RishilFBDB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RishilFBDB/Pods-RishilFBDB.debug.xcconfig"; sourceTree = "<group>"; };
+		F153B2E021A7630200B6F0AE /* CellClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellClass.h; sourceTree = "<group>"; };
+		F153B2E121A7630200B6F0AE /* CellClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellClass.m; sourceTree = "<group>"; };
+		F15C00D121A7CF5100EBDBD1 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		F15C0AC421A600D60019550A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F16C4AA821A5EA970014169A /* RishilFBDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RishilFBDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16C4AAB21A5EA970014169A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F16C4AAC21A5EA970014169A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F16C4AAE21A5EA970014169A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F16C4AAF21A5EA970014169A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F16C4AB221A5EA970014169A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F16C4AB421A5EA980014169A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F16C4AB721A5EA980014169A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F16C4AB921A5EA980014169A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16C4ABA21A5EA980014169A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F16C4AA521A5EA970014169A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				407A1916F0C8B7845085B2C7 /* libPods-RishilFBDB.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD96AB9EB6BF29976A70CED1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E5130EE34AC173F3AB455DC /* libPods-RishilFBDB.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F16C4A9F21A5EA970014169A = {
+			isa = PBXGroup;
+			children = (
+				F16C4AAA21A5EA970014169A /* RishilFBDB */,
+				F16C4AA921A5EA970014169A /* Products */,
+				AD96AB9EB6BF29976A70CED1 /* Frameworks */,
+				FA72FBC2512FC62D988CD62E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F16C4AA921A5EA970014169A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F16C4AA821A5EA970014169A /* RishilFBDB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F16C4AAA21A5EA970014169A /* RishilFBDB */ = {
+			isa = PBXGroup;
+			children = (
+				F15C00D121A7CF5100EBDBD1 /* Prefix.pch */,
+				F1FC408321A728220079955D /* ViewController */,
+				F16C4AAB21A5EA970014169A /* AppDelegate.h */,
+				F16C4AAC21A5EA970014169A /* AppDelegate.m */,
+				F15C0AC421A600D60019550A /* GoogleService-Info.plist */,
+				F16C4AB121A5EA970014169A /* Main.storyboard */,
+				F16C4AB421A5EA980014169A /* Assets.xcassets */,
+				F16C4AB621A5EA980014169A /* LaunchScreen.storyboard */,
+				F16C4AB921A5EA980014169A /* Info.plist */,
+				F16C4ABA21A5EA980014169A /* main.m */,
+			);
+			path = RishilFBDB;
+			sourceTree = "<group>";
+		};
+		F1FC408321A728220079955D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F16C4AAE21A5EA970014169A /* ViewController.h */,
+				F16C4AAF21A5EA970014169A /* ViewController.m */,
+				F153B2E021A7630200B6F0AE /* CellClass.h */,
+				F153B2E121A7630200B6F0AE /* CellClass.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FA72FBC2512FC62D988CD62E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6599EE25F4CE5C99B5F8123 /* Pods-RishilFBDB.debug.xcconfig */,
+				72E573DF72772C95C5657C33 /* Pods-RishilFBDB.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F16C4AA721A5EA970014169A /* RishilFBDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16C4ABE21A5EA980014169A /* Build configuration list for PBXNativeTarget "RishilFBDB" */;
+			buildPhases = (
+				72936D99202D5EA82487E0AE /* [CP] Check Pods Manifest.lock */,
+				F16C4AA421A5EA970014169A /* Sources */,
+				F16C4AA521A5EA970014169A /* Frameworks */,
+				F16C4AA621A5EA970014169A /* Resources */,
+				23AEE47123652D48E20573BE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RishilFBDB;
+			productName = RishilFBDB;
+			productReference = F16C4AA821A5EA970014169A /* RishilFBDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F16C4AA021A5EA970014169A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Nimit parekh";
+				TargetAttributes = {
+					F16C4AA721A5EA970014169A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = F16C4AA321A5EA970014169A /* Build configuration list for PBXProject "RishilFBDB" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F16C4A9F21A5EA970014169A;
+			productRefGroup = F16C4AA921A5EA970014169A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F16C4AA721A5EA970014169A /* RishilFBDB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F16C4AA621A5EA970014169A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16C4AB821A5EA980014169A /* LaunchScreen.storyboard in Resources */,
+				F16C4AB521A5EA980014169A /* Assets.xcassets in Resources */,
+				F16C4AB321A5EA970014169A /* Main.storyboard in Resources */,
+				F15C0AC521A600D60019550A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23AEE47123652D48E20573BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RishilFBDB/Pods-RishilFBDB-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/gRPC/gRPCCertificates.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RishilFBDB/Pods-RishilFBDB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72936D99202D5EA82487E0AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RishilFBDB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F16C4AA421A5EA970014169A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F153B2E221A7630200B6F0AE /* CellClass.m in Sources */,
+				F16C4AB021A5EA970014169A /* ViewController.m in Sources */,
+				F16C4ABB21A5EA980014169A /* main.m in Sources */,
+				F16C4AAD21A5EA970014169A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F16C4AB121A5EA970014169A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F16C4AB221A5EA970014169A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F16C4AB621A5EA980014169A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F16C4AB721A5EA980014169A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F16C4ABC21A5EA980014169A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F16C4ABD21A5EA980014169A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F16C4ABF21A5EA980014169A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6599EE25F4CE5C99B5F8123 /* Pods-RishilFBDB.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/zenosys/Desktop/RishilOBJCDemo/RishilFBDB/RishilFBDB/HelperClasses/Prefix.pch;
+				INFOPLIST_FILE = RishilFBDB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rishil.RealDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F16C4AC021A5EA980014169A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72E573DF72772C95C5657C33 /* Pods-RishilFBDB.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/zenosys/Desktop/RishilOBJCDemo/RishilFBDB/RishilFBDB/HelperClasses/Prefix.pch;
+				INFOPLIST_FILE = RishilFBDB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rishil.RealDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F16C4AA321A5EA970014169A /* Build configuration list for PBXProject "RishilFBDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16C4ABC21A5EA980014169A /* Debug */,
+				F16C4ABD21A5EA980014169A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F16C4ABE21A5EA980014169A /* Build configuration list for PBXNativeTarget "RishilFBDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16C4ABF21A5EA980014169A /* Debug */,
+				F16C4AC021A5EA980014169A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F16C4AA021A5EA970014169A /* Project object */;
+}
