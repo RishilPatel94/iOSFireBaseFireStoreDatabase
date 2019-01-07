@@ -33,3 +33,5 @@ Then, run the following command:
 $ pod install
 ```
 
+Note : You must have to add GoogleService.plist file from you firebase console.
+
