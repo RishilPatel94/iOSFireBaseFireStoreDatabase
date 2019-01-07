@@ -33,5 +33,4 @@ Then, run the following command:
 $ pod install
 ```
 
-Note : You must have to add GoogleService.plist file from you firebase console.
-
+Note : You must have to add GoogleService.plist file in your xcode project from you firebase console.
